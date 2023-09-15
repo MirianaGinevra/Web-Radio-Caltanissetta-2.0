@@ -1,0 +1,72 @@
+@media only screen and (max-width: 700px) {
+    .checkbox {
+      display: block;
+    }
+  
+    header {
+      flex-direction: column;
+      align-items: start;
+    }
+  
+    nav {
+      width: 75%;
+    }
+    nav ul {
+      flex-direction: column;
+      opacity: 0;
+      text-align: right;
+      display: none;
+      width: 100%;
+      margin-top: 40px;
+      gap: 10px;
+    }
+  
+    nav ul a {
+      display: block;
+    }
+  
+    input[type="checkbox"]:checked ~ nav ul {
+      opacity: 100;
+      display: flex;
+    }
+  
+    .hamburger-lines {
+      opacity: 100;
+    }
+    .titolo{margin-top:30px;
+      margin-left: 20px;
+      margin-right:50px;
+     font-size: 26px;
+     color:#FA9C04;}
+     .brani{margin-left: 20px;}
+     .title{margin-left: 20px;}
+       .container{display:list-item;
+        list-style: none;
+        margin-right: 50px;
+        margin-left: 0px;}
+           .p1{text-align: left;
+            margin-right:0px;
+            margin-left: 10px;
+           }
+           .img{
+            max-width: 100%;
+          margin-top: 90px;
+          margin-left:0px;
+          margin-bottom: 10px;}
+            .miche{position: absolute;
+              top:124%;
+              margin-left:5px;
+          }
+        .info{display:flex;
+            padding-left: 10px;
+          width: 90%;
+          margin-left: 0px;
+          }
+    .via{ padding:0;
+    }
+    .call{margin-left: 0;}
+    .cell{text-align:start;
+    white-space: nowrap;}
+    .copy{margin-left:20px;}
+
+    }

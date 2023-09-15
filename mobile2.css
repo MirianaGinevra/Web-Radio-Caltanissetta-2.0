@@ -1,0 +1,80 @@
+
+@media only screen and (max-width: 700px) {
+    .checkbox {
+      display: block;
+    }
+  
+    header {
+      flex-direction: column;
+      align-items: start;
+    }
+  
+    nav {
+      width: 75%;
+    }
+    nav ul {
+      flex-direction: column;
+      opacity: 0;
+      text-align: right;
+      display: none;
+      width: 100%;
+      margin-top: 40px;
+      gap: 10px;
+    }
+  
+    nav ul a {
+      display: block;
+    }
+  
+    input[type="checkbox"]:checked ~ nav ul {
+      opacity: 100;
+      display: flex;
+    }
+  
+    .hamburger-lines {
+      opacity: 100;
+    }
+    .titolo{margin-top:30px;
+        margin-left: 20px;
+        margin-right:50px;
+       font-size: 26px;
+       color:#FA9C04;}
+       .start{display: list-item;
+        list-style: none;}
+        .chi{margin-left: 20px;}
+       .freq{margin-left:20px;
+        margin-top: 40px;}
+        .f1{margin-left: 20px;
+            margin-top: 10px;}
+        .box {
+            display: list-item;
+            list-style: none;
+            margin-left: 20px;
+          }
+          .desc{font-size:24px;  
+          font-weight: 300;
+          margin-right:55px;
+          line-height: 30px;}
+          .pic{ flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;}
+          
+          .pic1 {
+            margin-bottom: 10px; 
+            margin-left: 20px;}
+          .pic2{
+            margin-left: 20px;}
+            .info{display:flex;
+                padding-left: 10px;
+              width: 90%;
+              margin-left: 0px;
+              }
+           .via{ padding:0;
+          }
+          .call{margin-left: 0;}
+          .cell{text-align:start;
+          white-space: nowrap;}
+          .copy{margin-left:20px;}
+          }

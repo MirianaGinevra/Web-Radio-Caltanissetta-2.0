@@ -1,0 +1,109 @@
+
+@media only screen and (max-width: 700px) {
+    .checkbox {
+      display: block;
+    }
+  
+    header {
+      flex-direction: column;
+      align-items: start;
+    }
+  
+    nav {
+      width: 75%;
+    }
+    nav ul {
+      flex-direction: column;
+      opacity: 0;
+      text-align: right;
+      display: none;
+      width: 100%;
+      margin-top: 40px;
+      gap: 10px;
+    }
+  
+    nav ul a {
+      display: block;
+    }
+  
+    input[type="checkbox"]:checked ~ nav ul {
+      opacity: 100;
+      display: flex;
+    }
+  
+    .hamburger-lines {
+      opacity: 100;
+    }
+    .titolo{margin-top:30px;
+        margin-left: 20px;
+        margin-right:50px;
+       font-size: 26px;
+       color:#FA9C04;}
+       .Iclass {
+        display: list-item;
+      
+    }
+    .cont{margin-left: 20px;}
+    .paragrafo {margin-left:20px;
+    margin-right: 10px;}
+        .pic1 { margin-top: 280px;
+          text-align: center;
+        margin-bottom: 0;}
+          .numero .cell1{ 
+           margin-left: 146px;
+           white-space: nowrap;}
+           .numero{top: 95%;
+          margin-left: 0;
+            position: absolute;
+           }
+           .palinsesto{background-color: #E8E8E8;
+              margin: 0px;
+            padding:40px;
+          text-align:left;}
+            .par1{font-size: 20px;
+                margin-left: 0px;
+            font-weight: 300;
+            }
+            .click{ margin-left:0px;
+               margin-top:20px;
+                }
+                .IIclass {margin-top: 90px;
+                  margin-left: 20px;
+                    display: list-item;
+                list-style: none;}
+        .freq{top: 87%;
+          left: 6%;
+          position: absolute;
+        width:80%;}
+                    .pic2{
+                    margin-top: 250px;
+                    }
+                    .freq1{ top: 255%;
+                        left: 6%;
+                        position: absolute;
+                        width:80%;
+                      opacity:0.5;}
+
+                    .contact .mail{
+                        top: 265%;
+                    left: 52%;
+                    margin-bottom: 20px;
+                    padding: 5px 20px;
+                    font-size: 18px;
+                  
+                    }
+                  
+                    .info{display:flex;
+                        padding-left: 10px;
+                      width: 90%;
+                      margin-left: 0px;
+                      }
+                    .via{ padding:0;
+                    }
+                    .call{margin-left: 0;}
+                    .cell{text-align:start;
+                    white-space: nowrap;}
+                    .copy{margin-left:20px;}
+             
+            
+        }

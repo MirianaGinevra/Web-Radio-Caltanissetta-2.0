@@ -1,0 +1,241 @@
+body{ padding:none;
+    margin:0;
+    margin-left:initial;
+      background-color: #F0F0F0;
+      font-family: 'K2D', sans-serif;
+      font-weight:bold;
+      font-size:18px;
+  }
+  .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #E8E8E8;
+      padding: 0px 50px;}
+  .menu {
+      list-style: none;
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+      
+   .menu li {
+      padding: 0;
+      margin-top: 0;
+    }
+     .menu li a {
+      padding-inline-start:10px;
+      padding-block-end: 5px;
+      text-decoration: none;
+      color: black;
+      margin-right: 120px;
+      transition: color 0.3s;
+    }
+    .menu li a:hover {
+      color:#FA9C04;
+    
+                }
+                .titolo {margin-top:120px;
+                  margin-left: 60px;
+                  margin-right:150px;
+                 font-size: 26px;
+                 color:#FA9C04;}
+                 .dj{
+                  margin-left: 60px;
+                            margin-top:30px;
+                            font-size: 24px;
+                            font-weight: bolder;
+                            color: #000;}
+                
+                .griglia{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr; 
+                    grid-gap: 10px;
+                    margin-top: 30px;
+                }
+        
+                .dj1{
+                    text-align: center;
+                    margin-top: 0;
+
+                }
+        
+                .griglia img {
+                    max-width: 100%;
+                }
+        
+                .piero {position:absolute;
+                  top:85%;
+                  left:0,1%; 
+                    padding: 0;
+                    margin-left: 250px;
+                    box-sizing: border-box;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color:#FA9C04;
+                    margin-top: 0;
+                    border: none;
+                    border-radius: 50px;
+                    padding: 15px 40px;
+                    cursor: pointer;
+                    transition: background-color 0.2s ease;
+                    color: white;
+                        margin-right: 10px;
+                        font-size: 18px;
+                      font-weight: 600; }
+                      .piero:hover {
+                        background-color: darkorange;}
+                        .dj2{
+                            text-align: center;
+                            margin-top: 0;}
+                        .mauri {position:absolute;
+                          top:85%;
+                          left:50%; 
+                            padding: 0;
+                            margin-left: 290px;
+                            box-sizing: border-box;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color:#FA9C04;
+                            margin-top: 0;
+                            border: none;
+                            border-radius: 50px;
+                            padding: 15px 60px;
+                            cursor: pointer;
+                            transition: background-color 0.2s ease;
+                            color: white;
+                                margin-right:10px;
+                                font-size: 18px;
+                              font-weight: 600; }
+                              .mauri:hover {
+                                background-color: darkorange;}
+                                .dj3{
+                                    text-align: center;
+                                    margin-top: 100px;}
+                                    .enrico {position:absolute;
+                                      top:145%;
+                                      left:0,2%; 
+                                        padding: 0;
+                                        margin-left: 270px;
+                                        box-sizing: border-box;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        background-color:#FA9C04;
+                                        margin-top: 0;
+                                        border: none;
+                                        border-radius: 50px;
+                                        padding: 15px 60px;
+                                        cursor: pointer;
+                                        transition: background-color 0.2s ease;
+                                        color: white;
+                                            margin-right:10px;
+                                            font-size: 18px;
+                                          font-weight: 600; }
+                                          .enrico:hover {
+                                            background-color: darkorange;}
+                                            .dj4{
+                                                text-align: center;
+                                                margin-top: 100px;}
+                                                .miche {position:absolute;
+                                                  top:145%;
+                                                  left:51%; 
+                                                    padding: 0;
+                                                    margin-left: 250px;
+                                                    box-sizing: border-box;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    background-color:#FA9C04;
+                                                    margin-top: 0;
+                                                    border: none;
+                                                    border-radius: 50px;
+                                                    padding: 15px 40px;
+                                                    cursor: pointer;
+                                                    transition: background-color 0.2s ease;
+                                                    color: white;
+                                                        margin-right:10px;
+                                                        font-size: 18px;
+                                                      font-weight: 600; }
+                                                      .miche:hover {
+                                                        background-color: darkorange;}
+                                                        .footer{
+                                                          padding-top: 5px;
+                                                          background-color: #E8E8E8;
+                                                        margin-top: 70px;
+                                                        font-size: 16px;
+                                                        font-weight: 100;
+                                                        padding-bottom: 4px;
+                                                        }
+                                                        .info{display: flex;}
+                                                        .home{
+                                                          margin-left:5px;
+                                                          margin-top: 5px;
+                                                          width: 38px;}
+                                                          .call{margin-top: 9px;
+                                                            margin-left:50px;
+                                                            width: 30px;}
+                                                            .copy{ margin-left:50px;
+                                                              margin-top: 0px;
+                                                            line-height: 20px;}
+        
+                                                            input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+                                                              transform: rotate(45deg);
+                                                            }
+                                                            
+                                                            input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+                                                              transform: scaleY(0);
+                                                            }
+                                                            
+                                                            input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+                                                              transform: rotate(-45deg);
+                                                            }
+                                                            .hamburger-lines {
+                                                              display: block;
+                                                              height: 26px;
+                                                              width: 32px;
+                                                              position: absolute;
+                                                              top: 18px;
+                                                              right: 20px;
+                                                              z-index: 2;
+                                                              display: flex;
+                                                              flex-direction: column;
+                                                              justify-content: space-between;
+                                                              opacity: 0;
+                                                            }
+                                                            
+                                                            .hamburger-lines .line {
+                                                              display: block;
+                                                              height: 4px;
+                                                              width: 100%;
+                                                              border-radius: 10px;
+                                                              background: black;
+                                                            }
+                                                            
+                                                            .hamburger-lines .line1 {
+                                                              transform-origin: 0% 0%;
+                                                              transition: transform 0.4s ease-in-out;
+                                                            }
+                                                            .hamburger-lines .line2 {
+                                                              transition: transform 0.2s ease-in-out;
+                                                            }
+                                                            
+                                                            .hamburger-lines .line3 {
+                                                              transform-origin: 0% 100%;
+                                                              transition: transform 0.4s ease-in-out;
+                                                            }
+                                                            .checkbox {
+                                                              position: absolute;
+                                                              display: block;
+                                                              height: 36px;
+                                                              width: 32px;
+                                                              top: 8px;
+                                                              right: 20px;
+                                                              z-index: 5;
+                                                              opacity: 0;
+                                                              cursor: pointer;
+                                                            }
+                                                            
+                                                         
